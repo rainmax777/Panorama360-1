@@ -16,8 +16,8 @@ var APP_DATA = {
       ],
       "faceSize": 512,
       "initialViewParameters": {
-        "yaw": 1.3350335799998696,
-        "pitch": 0,
+        "yaw": -0.5271711678723392,
+        "pitch": 0.04655099689756881,
         "fov": 1.7607213063833194
       },
       "linkHotspots": [
@@ -76,7 +76,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
-    "fullscreenButton": false,
-    "viewControlButtons": false
+    "fullscreenButton": true,
+    "viewControlButtons": true
   }
 };
