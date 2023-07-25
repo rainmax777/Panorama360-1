@@ -1,37 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-untitled_perspective_07-24-2023_01",
-      "name": "Untitled_Perspective_07-24-2023_01",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 512,
-      "initialViewParameters": {
-        "yaw": -0.5271711678723392,
-        "pitch": 0.04655099689756881,
-        "fov": 1.7607213063833194
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.5240182624575613,
-          "pitch": 0.010762027661893825,
-          "rotation": 3.9269908169872414,
-          "target": "1---05_camera001_07-25-2023"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1---05_camera001_07-25-2023",
+      "id": "0---05_camera001_07-25-2023",
       "name": "Люба Гостинная Бар05_Camera001_07-25-2023",
       "levels": [
         {
@@ -59,7 +29,7 @@ var APP_DATA = {
           "yaw": -1.3200050055223613,
           "pitch": -0.0014902983785667345,
           "rotation": 0,
-          "target": "0-untitled_perspective_07-24-2023_01"
+          "target": "1-untitled_perspective_07-24-2023_01"
         }
       ],
       "infoHotspots": [
@@ -70,9 +40,39 @@ var APP_DATA = {
           "text": "Армстронг"
         }
       ]
+    },
+    {
+      "id": "1-untitled_perspective_07-24-2023_01",
+      "name": "Untitled_Perspective_07-24-2023_01",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 512,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.4598822970178933,
+          "pitch": -0.10649451618622408,
+          "rotation": 1.5707963267948966,
+          "target": "0---05_camera001_07-25-2023"
+        }
+      ],
+      "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "3D Тур",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
